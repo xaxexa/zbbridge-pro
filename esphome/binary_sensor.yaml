@@ -1,7 +1,7 @@
 binary_sensor:
  
   - platform: status
-    name: "${friendly_name} Status"
+    name: "${humanly_name} Status"
 
   - platform: gpio
     pin: 
