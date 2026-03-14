@@ -1,5 +1,5 @@
 esphome:
-  name: ${devicename}
+  name: ${device_name}
   on_boot:
     priority: 800
     then:
