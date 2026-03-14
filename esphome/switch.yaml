@@ -1,13 +1,13 @@
 switch:
 
   - platform: restart
-    name: "${friendly_name} Restart"
+    name: "${humanly_name} Restart"
     id: reboot 
     internal: true
     icon: "mdi:restart"
 
   - platform: template
-    name: "${friendly_name} fw update"
+    name: "${humanly_name} fw update"
     id: fwupdate
     turn_on_action:
       - light.turn_off: blue
