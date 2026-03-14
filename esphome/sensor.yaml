@@ -12,7 +12,7 @@ sensor:
     pin: GPIO32
 
   - platform: uptime
-    name: "${friendly_name} Activ"
+    name: "${humanly_name} Activ"
     id: ${device_name}_activ
     update_interval: 60s
     internal: True
@@ -36,5 +36,5 @@ sensor:
               ).c_str();
 
   - platform: wifi_signal
-    name: "${friendly_name} WiFi Signal"
+    name: "${humanly_name} WiFi Signal"
     update_interval: 60s
