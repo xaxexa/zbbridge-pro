@@ -1,7 +1,7 @@
 text_sensor:
   - platform: template
     name: "${humanly_name} Uptime Readable"
-    id: ${devicename}_uptime_human
+    id: ${device_name}_uptime_human
     icon: mdi:clock-start
 
   - platform: wifi_info
